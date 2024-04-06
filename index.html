@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        Японский Ресторан Ksushi
+        </title>
+        <meta name="description" content="Блочная верстка HTML5">
+        <style>
+            div {vertical-align: baseline;}
+            * {box-sizing: border-box;}
+            #header h1 {
+                font-size: 24px;
+                text-transform: uppercase;
+                font-weight: bold;
+                padding: 30px 30px 30px 10px;
+                clear: both;
+                text-align: center;
+                text-shadow: 5px 4px 3px #666;
+             }
+             #nav {background-color: rgb(226, 232, 207);
+                border-top: 1px solid #888;
+                border-bottom: 1px solid #888;
+                }
+            #nav ul:after {content: " ";
+                display: table;
+                clear: both;
+                }
+            #nav li {float: left;
+                list-style: none;   
+                }
+            #nav a {display: block;
+                color: black;
+                padding: 10px 25px;
+                text-decoration: none;
+                border-right: 3px solid rgb(1, 25, 68);
+                font-size: xx-large;
+                }
+            #nav li:last-child a {border-right: none; 
+                }
+            #wrapper {
+                min-height: 500px;
+                background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-delicious-sushi-small-fresh-texture-background-image_186636.jpg); 
+background-size: 100% 100%;  
+            }
+            #sidebar-left {
+                padding: 10px 10px 10px 10px;
+                float: left;
+                width: 25%;}
+            #sidebar-right {
+                padding: 10px 10px 10px 10px;
+                float: right;
+                width: 25%;}
+            #main {
+                padding: 10px 10px 10px 10px;
+                margin-left: 27%;
+                margin-right: 27%;
+                min-height: 500px;
+                background-color: rgba(255, 255, 255, 0.75);
+                /*float: left;*/
+                }
+            #footer {
+                background-color: rgb(221, 207, 232);
+                clear: both;
+                padding: 15px 50px 15px 50px;
+                text-align: center;
+                }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <h1>Японский Ресторан Ksushi</h1>
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="about.html">Отзывы</a></li>
+            </ul>
+        </div>
+        <div id="wrapper">
+            <div id="sidebar-left">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="about.html">Отзывы</a></li>
+                </ul>
+            </div>
+            <div id="sidebar-right">
+                <p>Правый сайдбар c японскими суши</p>
+             </div>
+            <div id="main">
+                <p>Ресторан Ksushi - камерный, авторский ресторан японской кухни, расположенный в Центральном районе Санкт-Петербурга</p>
+                <p>Интерьер обыгрывает название проекта</p>
+                <p>остей встречает структурный потолок в форме морской волны, выполненный из светлого дерева, и светильники в виде удочек, заброшенных в море</p>
+                <p>География нашего меню обширная: лосось с Фарерских островов, тунец из Индийского океана, дальневосточный гребешок, краб с Камчатки и даже хамачи, прилетающий к нам из Японии</p>
+                <p>Наша цель - познакомить гостей с философией японской кухни, где так важен вкус исходного продукта.</p>
+                <p>Приятного аппетита</p>
+            </div>
+        </div>
+        <div id="footer">Это подвал с копирайтом</div>
+    </body>
+</html>   
